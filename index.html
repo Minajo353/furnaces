@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blast Furnace vs Midrex Furnace</title>
+<style>
+:root{--bg:#f6f3ee;--card:#fff;--tx:#1d1f23;--mu:#5b6068;--ac:#c2410c;--bd:#e2ddd4;--hero:#2a2f3a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16181c;--card:#20242a;--tx:#eceae6;--mu:#a3a8b0;--ac:#fb923c;--bd:#33383f;--hero:#0f1115}}
+:root[data-theme="dark"]{--bg:#16181c;--card:#20242a;--tx:#eceae6;--mu:#a3a8b0;--ac:#fb923c;--bd:#33383f;--hero:#0f1115}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.hero{background:var(--hero);color:#f3efe8;padding:56px 0 48px}
+header.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.15;margin:0 0 12px}
+header.hero p{max-width:620px;color:#cfd3da;margin:0 0 20px}
+nav a{display:inline-block;margin:0 8px 8px 0;padding:8px 16px;border:1px solid #ffffff44;border-radius:999px;color:#f3efe8;text-decoration:none;font-size:14px}
+nav a:hover{background:#ffffff1a}
+section{padding:44px 0 8px}
+h2{font-size:clamp(24px,4.5vw,32px);margin:0 0 6px}
+.lead{color:var(--mu);margin:0 0 24px;max-width:680px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+@media (max-width:760px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:20px}
+.card svg{width:100%;height:auto;display:block}
+.cap{font-size:13px;color:var(--mu);margin:10px 0 0}
+ol.steps{margin:0;padding-left:0;list-style:none;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 16px 44px}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:2px;width:30px;height:30px;border-radius:50%;background:var(--ac);color:#fff;text-align:center;line-height:30px;font-size:14px;font-weight:600}
+ol.steps b{display:block}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+@media (max-width:560px){.facts{grid-template-columns:1fr}}
+.fact{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px}
+.fact strong{display:block;font-size:22px;color:var(--ac)}
+.fact span{font-size:13px;color:var(--mu)}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--bd);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:520px}
+th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--bd);vertical-align:top}
+th{font-size:13px;color:var(--mu);font-weight:600}
+tr:last-child td{border-bottom:0}
+td:first-child{font-weight:600}
+footer{padding:36px 0 40px;color:var(--mu);font-size:14px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<h1>How iron is made:<br>Blast Furnace vs Midrex</h1>
+<p>Two very different ways to turn iron ore into the iron that becomes steel. One melts it with coke. The other removes the oxygen with gas, without ever melting it.</p>
+<nav><a href="#bf">Blast furnace</a><a href="#midrex">Midrex furnace</a><a href="#compare">Comparison</a></nav>
+</div></header>
+
+<main class="wrap">
+<section id="bf">
+<h2>The blast furnace</h2>
+<p class="lead">A giant vertical furnace, often 30 m or more tall, that runs non-stop for years. It is the main route for making steel worldwide, called BF-BOF.</p>
+<div class="grid">
+<div class="card">
+<svg viewBox="0 0 340 330" role="img" aria-label="Blast furnace cross-section diagram">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#c2410c" stroke-width="1.6"/></marker></defs>
+<text x="170" y="16" text-anchor="middle" font-size="12" fill="var(--tx)">Ore + coke + limestone</text>
+<line x1="170" y1="22" x2="170" y2="54" stroke="#c2410c" stroke-width="2" marker-end="url(#a)"/>
+<polygon points="140,60 200,60 225,170 210,240 210,290 130,290 130,240 115,170" fill="#6b7078" stroke="#3d4046" stroke-width="2"/>
+<polygon points="123,200 217,200 210,240 130,240" fill="#8a5a48"/>
+<rect x="130" y="240" width="80" height="50" fill="#8a5a48"/>
+<rect x="130" y="266" width="80" height="24" fill="#ff8a2a"/>
+<rect x="130" y="258" width="80" height="8" fill="#b9b4a8"/>
+<text x="170" y="112" text-anchor="middle" font-size="12" fill="#fff">Preheating</text>
+<text x="170" y="165" text-anchor="middle" font-size="12" fill="#fff">Reduction</text>
+<text x="170" y="225" text-anchor="middle" font-size="12" fill="#fff">Melting</text>
+<line x1="205" y1="64" x2="248" y2="44" stroke="var(--mu)" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="252" y="48" font-size="12" fill="var(--tx)">Top gas</text>
+<line x1="290" y1="232" x2="214" y2="232" stroke="#c2410c" stroke-width="2" marker-end="url(#a)"/>
+<text x="296" y="228" font-size="12" fill="var(--tx)">Hot blast</text>
+<text x="296" y="244" font-size="12" fill="var(--mu)">~1200 °C</text>
+<line x1="80" y1="278" x2="126" y2="278" stroke="#c2410c" stroke-width="2" marker-end="url(#a)"/>
+<text x="6" y="282" font-size="12" fill="var(--tx)">Iron out</text>
+<text x="222" y="304" font-size="12" fill="var(--mu)">Slag on top</text>
+<text x="170" y="318" text-anchor="middle" font-size="12" fill="var(--tx)">Molten iron ~1500 °C</text>
+</svg>
+<p class="cap">Simplified cross-section (illustration, not to scale).</p>
+</div>
+<ol class="steps card">
+<li><b>Charging</b>Iron ore (lumps, sinter or pellets), coke and limestone are loaded in layers at the top.</li>
+<li><b>Hot blast</b>Air heated to about 1,000–1,200 °C is blown in near the bottom through nozzles called tuyeres.</li>
+<li><b>Making the gas</b>Coke burns and forms carbon monoxide (CO), the gas that does the chemical work.</li>
+<li><b>Reduction</b>CO strips oxygen from the ore as it sinks: Fe₂O₃ + 3CO → 2Fe + 3CO₂.</li>
+<li><b>Melting and tapping</b>The iron melts and collects in the hearth. Limestone binds impurities into slag, which floats on top. Both are tapped out regularly.</li>
+</ol>
+</div>
+<div class="facts">
+<div class="fact"><strong>~4–4.5%</strong><span>carbon in the hot metal (pig iron)</span></div>
+<div class="fact"><strong>Coke</strong><span>is both the fuel and the reducing agent</span></div>
+<div class="fact"><strong>Years</strong><span>of continuous operation between relinings</span></div>
+</div>
+</section>
+
+<section id="midrex">
+<h2>The Midrex furnace</h2>
+<p class="lead">A direct reduction process. Iron ore pellets slide down a shaft while hot reducing gas removes their oxygen. The ore never melts, and the product is called DRI (direct reduced iron).</p>
+<div class="grid">
+<div class="card">
+<svg viewBox="0 0 340 330" role="img" aria-label="Midrex shaft furnace diagram">
+<defs><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#c2410c" stroke-width="1.6"/></marker></defs>
+<text x="170" y="16" text-anchor="middle" font-size="12" fill="var(--tx)">Iron ore pellets</text>
+<line x1="170" y1="22" x2="170" y2="54" stroke="#c2410c" stroke-width="2" marker-end="url(#b)"/>
+<rect x="130" y="60" width="80" height="200" fill="#8a5a48" stroke="#3d4046" stroke-width="2"/>
+<rect x="130" y="180" width="80" height="80" fill="#7d838b"/>
+<polygon points="130,260 210,260 185,296 155,296" fill="#7d838b" stroke="#3d4046" stroke-width="2"/>
+<text x="170" y="112" text-anchor="middle" font-size="12" fill="#fff">Iron oxide</text>
+<text x="170" y="128" text-anchor="middle" font-size="12" fill="#fff">pellets</text>
+<text x="170" y="222" text-anchor="middle" font-size="12" fill="#fff">Solid iron</text>
+<rect x="8" y="110" width="74" height="60" rx="6" fill="#a5644c" stroke="#6d3f30" stroke-width="2"/>
+<text x="45" y="136" text-anchor="middle" font-size="12" fill="#fff">Reformer</text>
+<text x="45" y="154" text-anchor="middle" font-size="12" fill="#fff">(gas + heat)</text>
+<path d="M45 172 V200 H126" fill="none" stroke="#c2410c" stroke-width="2" marker-end="url(#b)"/>
+<text x="6" y="222" font-size="12" fill="var(--tx)">Reducing gas</text>
+<text x="6" y="238" font-size="12" fill="var(--mu)">H₂ + CO ~900 °C</text>
+<line x1="214" y1="80" x2="262" y2="80" stroke="var(--mu)" stroke-width="1.5" marker-end="url(#b)"/>
+<text x="266" y="84" font-size="12" fill="var(--tx)">Top gas</text>
+<text x="266" y="100" font-size="12" fill="var(--mu)">recycled</text>
+<line x1="170" y1="298" x2="170" y2="314" stroke="#c2410c" stroke-width="2" marker-end="url(#b)"/>
+<text x="192" y="312" font-size="12" fill="var(--tx)">DRI out</text>
+</svg>
+<p class="cap">Simplified diagram (illustration, not to scale).</p>
+</div>
+<ol class="steps card">
+<li><b>Charging</b>Iron oxide pellets or lump ore enter the top of a vertical shaft.</li>
+<li><b>Making the gas</b>Natural gas is reformed with recycled top gas into a hot mix of hydrogen (H₂) and carbon monoxide (CO).</li>
+<li><b>Reduction in solid state</b>The gas enters the shaft at around 900 °C and removes oxygen from the pellets as they descend: Fe₂O₃ + 3H₂ → 2Fe + 3H₂O.</li>
+<li><b>Gas recycling</b>Top gas leaves the shaft, is cleaned, and is fed back into the reformer.</li>
+<li><b>DRI output</b>Sponge-like DRI leaves the bottom, typically 92–95% metallic iron. It usually goes to an electric arc furnace to become steel.</li>
+</ol>
+</div>
+<div class="facts">
+<div class="fact"><strong>No melting</strong><span>iron is reduced while still solid</span></div>
+<div class="fact"><strong>Gas-based</strong><span>runs on natural gas, and can use more hydrogen</span></div>
+<div class="fact"><strong>DRI → EAF</strong><span>pairs with electric arc furnaces</span></div>
+</div>
+</section>
+
+<section id="compare">
+<h2>Side by side</h2>
+<p class="lead">Figures are typical ranges and vary by plant.</p>
+<div class="tw"><table>
+<thead><tr><th>Feature</th><th>Blast furnace</th><th>Midrex (DRI)</th></tr></thead>
+<tbody>
+<tr><td>Main reducing agent</td><td>Carbon monoxide from coke</td><td>Hydrogen + carbon monoxide from gas</td></tr>
+<tr><td>Iron state</td><td>Molten (hot metal)</td><td>Solid (DRI)</td></tr>
+<tr><td>Operating temperature</td><td>Up to about 1,500 °C at the bottom</td><td>About 800–900 °C in the shaft</td></tr>
+<tr><td>Main fuel</td><td>Coking coal</td><td>Natural gas (or hydrogen blends)</td></tr>
+<tr><td>Next step to steel</td><td>Basic oxygen furnace (BOF)</td><td>Electric arc furnace (EAF)</td></tr>
+<tr><td>CO₂ emissions</td><td>Higher, roughly 2 t CO₂ per t of steel</td><td>Lower, and can drop a lot with hydrogen</td></tr>
+<tr><td>Scale</td><td>Very large units, very high output</td><td>Modular, smaller units</td></tr>
+</tbody></table></div>
+</section>
+</main>
+
+<footer><div class="wrap">A simple explainer on ironmaking. Diagrams are simplified illustrations, and numbers are approximate.</div></footer>
+</body>
+</html>
